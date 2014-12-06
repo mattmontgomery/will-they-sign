@@ -1,0 +1,10 @@
+body {
+    font-family: "Helvetica Neue", "Helvetica", "Arial"
+}
+input {
+    display: block;
+}
+
+input[type="text"] {
+    margin: 1rem 0;
+}

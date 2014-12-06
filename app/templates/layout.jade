@@ -1,0 +1,16 @@
+doctype
+html
+  head
+    title #{title} - My Site
+    style(type='text/css')
+        include style.css
+  body
+    header
+      h1 My Site
+    .container
+      .main-content
+        block content
+      .sidebar
+        block sidebar
+    footer
+      p This thing was made in 2014.
